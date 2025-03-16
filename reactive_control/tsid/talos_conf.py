@@ -1,4 +1,5 @@
 import os
+import pinocchio.visualize
 import pinocchio as pin
 import numpy as np
 from example_robot_data.robots_loader import getModelPath

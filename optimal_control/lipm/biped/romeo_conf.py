@@ -8,6 +8,7 @@ Created on Thu Apr 18 09:47:07 2019
 import os
 
 import numpy as np
+import pinocchio.visualize
 import pinocchio as pin
 from example_robot_data.robots_loader import getModelPath
 
