@@ -122,6 +122,15 @@ if(PLOT_EE_POS):
         ax[i].set_ylabel(r'$x_%d$ [m]'%i)
     leg = ax[0].legend()
     leg.get_frame().set_alpha(0.5)
+    
+(f, ax) = plut.create_empty_figure(1,1)
+ax.plot(ee_pos[0,:], ee_pos[2,:], label=r'$x$')
+ax.set_xlabel('Time [s]')
+ax.set_ylabel(r'$x$ [m]')
+leg = ax.legend()
+leg.get_frame().set_alpha(0.5)
+
+
 
 if(PLOT_EE_VEL):
     (f, ax) = plut.create_empty_figure(3,1)

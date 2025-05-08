@@ -59,13 +59,13 @@ dt_mpc = 0.1  # sampling time interval
 T_step = 1.2  # time needed for every step
 step_length = 0.05  # fixed step length
 step_height = 0.05  # fixed step height
-nb_steps = 6  # number of desired walking steps
+nb_steps = 10  # number of desired walking steps
 
 # configuration for TSID
 # ----------------------------------------------
 dt = 0.002  # controller time step
 T_pre = 1.5  # simulation time before starting to walk
-T_post = 1.5  # simulation time after walking
+T_post = 8.5  # simulation time after walking
 
 w_com = 1.0  # weight of center of mass task
 w_cop = 0.0  # weight of center of pressure task

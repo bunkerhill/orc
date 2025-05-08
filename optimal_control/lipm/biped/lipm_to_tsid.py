@@ -274,4 +274,4 @@ if __name__=='__main__':
     # plt.gca().set_xlim([-0.2, 0.4])
     # plt.gca().set_ylim([-0.3, 0.3])
 
-    # plt.show()
+    plt.show()

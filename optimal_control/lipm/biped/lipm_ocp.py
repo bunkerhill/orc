@@ -71,6 +71,7 @@ if __name__=="__main__":
     # compute Com/CoP reference trajectories:
     foot_steps  = manual_foot_placement(conf.foot_step_0, conf.step_length, 
                                                conf.nb_steps)
+    
     foot_steps[1:, 0] -= conf.step_length
     U_ref = create_CoP_trajectory(conf.nb_steps, foot_steps, N, nb_dt_per_step)
     C_ref = np.zeros(N+1) # not used

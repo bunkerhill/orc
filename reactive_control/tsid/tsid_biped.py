@@ -3,6 +3,7 @@ import subprocess
 import time
 
 import numpy as np
+import pinocchio.visualize
 import pinocchio as pin
 import tsid
 
